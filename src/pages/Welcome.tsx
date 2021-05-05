@@ -8,13 +8,13 @@ import {
   TouchableOpacity,
   View
 } from 'react-native';
+import { useNavigation } from '@react-navigation/core';
 import { Feather } from '@expo/vector-icons';
 
 import colors from '../styles/colors';
+import fonts from '../styles/fonts';
 
 import WateringImg from '../assets/watering.png';
-import fonts from '../styles/fonts';
-import { useNavigation } from '@react-navigation/core';
 
 export function Welcome() {
   const navigation = useNavigation();
